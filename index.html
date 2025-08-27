@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All CSS Examples</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+        }
+        .styled-paragraph {
+            color: #28a745;
+            font-size: 1.2em;
+            font-weight: bold;
+            background: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background: #ffc107;
+            border: 2px solid #343a40;
+            margin: 10px 0;
+            transition: background 0.3s;
+        }
+        .box:hover {
+            background: #fd7e14;
+        }
+        ul.styled-list {
+            list-style-type: square;
+            color: #6f42c1;
+        }
+        table.styled-table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 10px 0;
+        }
+        table.styled-table th, table.styled-table td {
+            border: 1px solid #dee2e6;
+            padding: 8px;
+            text-align: left;
+        }
+        table.styled-table th {
+            background-color: #007bff;
+            color: white;
+        }
+        .flex-container {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .flex-item {
+            background: #17a2b8;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            flex: 1;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Examples</h1>
+    
+    <h2>Styled Paragraph</h2>
+    <p class="styled-paragraph">This paragraph uses CSS for color, font size, and background.</p>
+    
+    <h2>Box with Hover Effect</h2>
+    <div class="box"></div>
+    
+    <h2>Styled List</h2>
+    <ul class="styled-list">
+        <li>Styled Item 1</li>
+        <li>Styled Item 2</li>
+        <li>Styled Item 3</li>
+    </ul>
+    
+    <h2>Styled Table</h2>
+    <table class="styled-table">
+        <tr>
+            <th>Fruit</th>
+            <th>Color</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Red</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>Yellow</td>
+        </tr>
+    </table>
+    
+    <h2>Flexbox Layout</h2>
+    <div class="flex-container">
+        <div class="flex-item">Flex Item 1</div>
+        <div class="flex-item">Flex Item 2</div>
+        <div class="flex-item">Flex Item 3</div>
+    </div>
+</body>
